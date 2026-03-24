@@ -1,0 +1,63 @@
+Create a high-performance 3D multiplayer aerial arena game titled Neon Drift Dominion using Three.js and Firebase.
+
+1. Branding and UI:
+- Display a sleek holographic header with the brand name in bright electric violet and aqua.
+- Include an Open in New Tab button and a Store button for premium purchases.
+- Use a futuristic HUD with score, boost meter, shield level, and capture progress.
+- Ensure all HTML UI overlays never block pointer events on the 3D canvas except for explicit buttons.
+
+2. Core Game Design:
+- Replace traditional airplane models with stylized anti-gravity gliders shaped like winged drone-craft, featuring curved neon fins and rotating energy stabilizers.
+- Use a 3rd-person floating chase camera with subtle camera tilt, motion smoothing, and speed-based zoom.
+- Movement should feel arcade-smooth rather than realistic simulation: accelerate, brake, strafe-drift, vertical lift, and short blink-dash.
+- Controls:
+  - WASD / Arrow Keys = movement
+  - Shift = boost
+  - Q / E = side drift
+  - Space = deploy pulse wave
+  - Left Click = energy tether
+- Instead of standard shooting combat, players compete to capture floating Energy Rings scattered across the arena.
+- Players can tether to Energy Rings, charge them for their team, and steal partially charged rings from opponents.
+- Add temporary power-ups such as shield burst, overdrive speed, EMP pulse, and score multiplier.
+
+3. Multiplayer (Firebase):
+- Use Firebase Realtime Database for live synchronization of player transform, velocity state, active power-up, team color, and score.
+- Support drop-in/drop-out multiplayer sessions with automatic cleanup of inactive players.
+- Include a live global leaderboard and also a session-based team scoreboard.
+- Add team matchmaking logic for two teams: Violet and Cyan.
+- Sync ring capture progress in real time so all players see contested objectives instantly.
+
+4. Monetization (PayPal):
+- Integrate the PayPal JavaScript SDK with clear placeholder configuration.
+- Build a purchase flow for premium glider skins, trail effects, and season pass access.
+- On successful payment approval, unlock the purchased cosmetic in Firebase and trigger a celebratory particle burst around the player.
+- Include boilerplate placeholders for secure server-side order creation and capture verification.
+
+5. Visual Direction:
+- Set the arena above a glowing cloud city at dusk with layered skyboxes, volumetric fog, and animated light highways below.
+- Apply a neon-futuristic arcade style with emissive materials, bloom, speed trails, animated capture rings, and reflective metallic surfaces.
+- Include optimized particle effects, low-latency animation updates, and performance-conscious rendering suitable for browser play.
+
+6. Technical Requirements:
+- Use modular, production-friendly code structure.
+- Include complete boilerplate with:
+  - Three.js scene setup
+  - player controller
+  - arena and capture ring system
+  - Firebase config placeholders
+  - PayPal config placeholders
+  - leaderboard UI
+  - store UI
+- Add comments indicating where to insert API keys, Firebase credentials, and PayPal client credentials.
+
+
+Create a production-ready 3D multiplayer browser game titled Neon Drift Dominion using Three.js, Firebase Realtime Database, and PayPal Checkout.
+
+Requirements:
+- Use futuristic anti-gravity gliders instead of traditional airplanes.
+- Focus gameplay on team-based capture objectives rather than simple shooting.
+- Implement a secure monetization flow where PayPal payment approval does not directly grant rewards on the client.
+- Require server-side order creation, capture verification, and then update the player's Firebase inventory only after successful verification.
+- Include placeholders for sandbox and live PayPal environments.
+- Prepare the project for global web deployment with English UI, responsive layout, and scalable architecture.
+- Make the project easy to deploy as a web game.
