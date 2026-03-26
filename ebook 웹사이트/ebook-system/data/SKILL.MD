@@ -18,3 +18,16 @@
   }
  ]
 }
+
+
+## Flexible Page Structure
+
+Each page may include:
+- text
+- image
+- audio
+- video
+
+Pages should support optional content.
+Not all pages require images.
+Not all pages require text.
