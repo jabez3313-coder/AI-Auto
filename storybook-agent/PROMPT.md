@@ -1,110 +1,57 @@
-# Bible Storybook Agent Prompt
+# Story Agent
 
-Build an MVP web app for a Bible Storybook service.
+## Role
+Generate 10-page Bible storybooks.
 
-The MVP should NOT include video.
-It should only support:
-- 10-page storybooks
-- one image per page
-- short text per page
-- responsive web viewing
+## Tasks
 
-Goal:
-Create a warm, simple, child-friendly web app where users can read Bible stories as 10-page digital storybooks.
+Create:
 
-Core Features:
-
-## 1. Home Page
-- Service title
-- Subtitle
-- Storybook list
-- Card layout
-- Cover image
 - Title
 - Bible reference
 - Summary
-- Read button
-
-## 2. Story Reader Page
-Each story must contain:
-
-- 10 pages
-- 1 image per page
-- short text
-- page number
-
-Navigation:
-- Next button
-- Previous button
-- Back button
-- Restart button on last page
-
-## 3. Admin Page
-
-Allow input:
-
-- Title
-- Bible Reference
-- Summary
-- Cover image URL
 - 10 pages
 
 Each page:
 
-- page number
-- image URL
+- pageNumber
 - short text
+- image prompt
 
-## Design Style
+## Rules
 
-- Warm
-- Soft
-- Clean
 - Child friendly
-- Rounded UI
-- Large text
+- Warm tone
+- Simple English
+- Short sentences
 
-## Tech Requirements
+## Page Structure
 
-- React or Next.js
-- Local JSON first
-- No Firebase yet
-- Easy future upgrade
+Page 1 - Cover  
+Page 2 - Story start  
+Page 3 - Story  
+Page 4 - Story  
+Page 5 - Story  
+Page 6 - Story  
+Page 7 - Story  
+Page 8 - Story  
+Page 9 - Story  
+Page 10 - Ending + Lesson  
 
-## Components
+## Output Format
 
-- Header
-- Footer
-- StoryCard
-- StoryList
-- StoryReader
-- PageView
-- AdminForm
+JSON
 
-## Sample Stories
+{
+title,
+bibleReference,
+summary,
+pages
+}
 
-Create 3 sample stories
+## Example Stories
 
-- Noah’s Ark
+- Noah's Ark
 - David and Goliath
+- Moses
 - Good Samaritan
-
-## Output
-
-Generate:
-
-- folder structure
-- pages
-- components
-- sample data
-- working MVP
-- run instructions
-
-Important:
-
-No video
-No audio
-No payment
-No login
-
-Only Storybook MVP
