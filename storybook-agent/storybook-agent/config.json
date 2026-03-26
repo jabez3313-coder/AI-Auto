@@ -1,0 +1,64 @@
+{
+  "agent": {
+    "name": "Bible Storybook Agent",
+    "version": "1.0",
+    "type": "webapp-builder",
+    "goal": "Build a 10-page Bible Storybook MVP using images and text"
+  },
+  "project": {
+    "type": "MVP",
+    "video": false,
+    "audio": false,
+    "payment": false,
+    "login": false,
+    "firebase": false
+  },
+  "storybook": {
+    "pages": 10,
+    "imagePerPage": 1,
+    "textPerPage": 1
+  },
+  "pages": [
+    "Home",
+    "StoryReader",
+    "Admin"
+  ],
+  "components": [
+    "Header",
+    "Footer",
+    "StoryCard",
+    "StoryList",
+    "StoryReader",
+    "PageView",
+    "AdminForm"
+  ],
+  "design": {
+    "style": "storybook",
+    "theme": "warm",
+    "audience": "children and families",
+    "layout": "card"
+  },
+  "sampleStories": [
+    {
+      "title": "Noah’s Ark",
+      "bibleReference": "Genesis 6-9"
+    },
+    {
+      "title": "David and Goliath",
+      "bibleReference": "1 Samuel 17"
+    },
+    {
+      "title": "Good Samaritan",
+      "bibleReference": "Luke 10"
+    }
+  ],
+  "tech": {
+    "framework": "React",
+    "data": "local JSON",
+    "future": [
+      "Firebase Firestore",
+      "Firebase Storage",
+      "Firebase Auth"
+    ]
+  }
+}
