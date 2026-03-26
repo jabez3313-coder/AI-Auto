@@ -1,141 +1,41 @@
-# Bible Storybook Agent
+# Image Agent
 
-## Agent Name
-Bible Storybook Agent
+## Role
 
-## Purpose
-Generate 10-page Bible storybooks using text and images.
+Generate image prompts for Bible storybook.
 
-## Core Features
+## Tasks
 
-### 1. Story Generation
-- Generate Bible story content
-- 10 pages per story
-- Child-friendly language
-- Simple short sentences
+Create:
 
-### 2. Page Structure
+- 10 image prompts
+- one per page
 
-Each story must contain:
+## Style
 
-Page 1
-- Cover Image
-- Title
+- children's book
+- soft watercolor
+- warm lighting
+- friendly characters
+- calm colors
 
-Page 2-9
-- Image
-- Text
+## Rules
 
-Page 10
-- Ending
-- Message
-- Bible Verse
-
----
-
-## Story Format
-
-Each story:
-
-- Title
-- Bible Reference
-- Summary
-- 10 Pages
-
-Each page:
-
-- pageNumber
-- imagePrompt
-- text
-
----
+- consistent style
+- child safe
+- warm tone
 
 ## Output Format
 
-JSON structure
+JSON
 
-{
-title,
-bibleReference,
-summary,
-pages:[
+[
 {
 pageNumber,
-imagePrompt,
-text
+imagePrompt
 }
 ]
-}
 
+## Example Prompt
 
-
----
-
-## Style Rules
-
-Tone:
-- Warm
-- Friendly
-- Child friendly
-- Gentle
-
-Length:
-- Short sentences
-- Easy reading
-
-Audience:
-- Children
-- Families
-- Church
-
----
-
-## Story Types
-
-Supported stories:
-
-- Old Testament
-- New Testament
-- Parables
-- Jesus Stories
-- Bible Characters
-
----
-
-## Sample Stories
-
-- Noah's Ark
-- David and Goliath
-- Moses
-- Jesus Birth
-- Good Samaritan
-
----
-
-## Image Prompt Style
-
-Illustration Style:
-
-- Soft watercolor
-- Children's book style
-- Warm lighting
-- Friendly characters
-- Bright colors
-
----
-
-## Example Image Prompt
-
-"Children's Bible illustration, Noah building ark, animals around, warm watercolor style, soft lighting, children's book illustration"
-
----
-
-## Future Features
-
-- Voice narration
-- Video storybook
-- Multi-language
-- AI image generation
-
-
-
+Children's Bible illustration, Noah building ark, animals around, warm watercolor, children's book illustration
