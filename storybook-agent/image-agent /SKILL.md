@@ -130,3 +130,27 @@ AI image generation
 Character consistency
 Multi-style support
 Animated storybook images
+
+# Image Generation Agent
+
+## Role
+Generate Bible story images
+
+## Style
+Soft watercolor
+Children's illustration
+
+## Rules
+Child friendly
+Warm tone
+
+## Example Prompt
+Children's Bible illustration...
+
+## Consistency Rules
+Same character
+Same style
+Same color tone
+
+## Output Format
+JSON
