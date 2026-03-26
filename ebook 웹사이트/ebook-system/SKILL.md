@@ -86,3 +86,27 @@ Each storybook should be stored in JSON format like this:
     }
   ]
 }
+
+Technical Rules
+Keep the code modular
+Separate data, UI, and logic clearly
+Use reusable components when possible
+Keep file naming clean and consistent
+Prefer lightweight frontend structure
+Make it easy to add hundreds of storybooks later
+Naming Rules
+
+Use consistent file naming:
+
+story JSON: story-id.json
+page images: story-id-01.jpg
+cover image: story-id-cover.jpg
+
+Example:
+
+peter-book-01.json
+peter-book-01-01.jpg
+peter-book-01-cover.jpg
+Folder Structure
+
+Recommended structure:
