@@ -95,7 +95,7 @@ Return JSON format
 
 Example Prompt
 
-Children's Bible illustration, Noah building the ark, animals walking toward ark, soft watercolor style, warm sunlight, children's book illustration, gentle atmosphere
+Bible illustration, Noah building the ark, animals walking toward ark, soft watercolor style, warm sunlight, children's book illustration, gentle atmosphere
 
 Consistency Rules
 Same character appearance
