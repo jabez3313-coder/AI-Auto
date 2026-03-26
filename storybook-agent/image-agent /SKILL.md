@@ -91,3 +91,42 @@ Return JSON format
 "imagePrompt": "Children's Bible illustration..."
 }
 ]
+
+
+Example Prompt
+
+Children's Bible illustration, Noah building the ark, animals walking toward ark, soft watercolor style, warm sunlight, children's book illustration, gentle atmosphere
+
+Consistency Rules
+Same character appearance
+Same art style
+Same color tone
+Same illustration style
+Supported Story Types
+Old Testament
+New Testament
+Parables
+Jesus stories
+Bible characters
+Safety Rules
+
+Avoid:
+
+Graphic violence
+Horror style
+Dark scary faces
+Blood or disturbing imagery
+
+Keep:
+
+gentle
+peaceful
+child safe
+Future Expansion
+
+Future features:
+
+AI image generation
+Character consistency
+Multi-style support
+Animated storybook images
