@@ -8,3 +8,23 @@
  ]
 }
 
+{
+  "id": "story-01",
+  "title": "베드로의 부르심",
+  "description": "갈릴리 바닷가에서 시작된 따뜻한 이야기",
+  "coverImage": "/images/story-01/cover.jpg",
+  "pages": [
+    {
+      "image": "/images/story-01/story-01-01.jpg",
+      "text": "베드로는 갈릴리 바닷가에서\n조용히 그물을 살피고 있었습니다."
+    },
+    {
+      "image": "/images/story-01/story-01-02.jpg",
+      "text": "그때 예수님이 다가오셔서\n그를 따뜻하게 바라보셨습니다."
+    },
+    {
+      "image": "/images/story-01/story-01-03.jpg",
+      "text": "베드로의 마음은 조금씩\n새로운 빛으로 열리기 시작했습니다."
+    }
+  ]
+}
