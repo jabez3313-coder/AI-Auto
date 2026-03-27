@@ -1,33 +1,34 @@
-✔ e북
-✔ 오디오북
-✔ 영상북
+# Data Folder Skill
+
+This folder stores story data.
+
+Each story is stored as JSON.
+
+Example:
 
 {
- "title": "베드로의 부르심",
+ "title": "Story Title",
  "pages": [
-  {
-   "text": "베드로는 갈릴리 바닷가에서..."
-  },
-  {
-   "image": "peter-02.jpg",
-   "text": "예수님이 다가오셨습니다",
-   "audio": "peter-02.mp3"
-  },
-  {
-   "video": "peter-03.mp4"
-  }
+   {
+     "text": "Page text"
+   },
+   {
+     "image": "image.jpg",
+     "text": "Page text"
+   }
  ]
 }
 
+Rules:
+- Flexible page structure
+- Optional image
+- Optional text
+- Optional audio
+- Optional video
 
-## Flexible Page Structure
+Naming rules:
+story-id.json
 
-Each page may include:
-- text
-- image
-- audio
-- video
-
-Pages should support optional content.
-Not all pages require images.
-Not all pages require text.
+Example:
+peter-01.json
+jesus-01.json
