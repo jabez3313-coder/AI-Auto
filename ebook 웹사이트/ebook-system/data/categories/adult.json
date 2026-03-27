@@ -1,0 +1,15 @@
+[
+  {
+    "id": "spirituality",
+    "title": "영성 e북",
+    "description": "성인을 위한 영성 스토리북",
+    "books": [
+      {
+        "id": "story-01",
+        "title": "베드로영성",
+        "coverImage": "/images/story-01/cover.jpg",
+        "dataFile": "/data/stories/story-01/spirituality.json"
+      }
+    ]
+  }
+]
