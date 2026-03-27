@@ -1,27 +1,35 @@
 {
   "id": "story-01",
-  "title": "Spirituality Story",
-  "description": "영성 스토리북",
+  "title": "베드로영성",
+  "audience": "adult",
+  "category": "spirituality",
+  "description": "베드로의 부르심과 회복, 사명을 따라가는 영성 e북",
   "coverImage": "/images/story-01/cover.jpg",
-
   "chapters": [
     {
       "id": "chapter-01",
       "title": "부르심",
+      "summary": "갈릴리 바닷가에서 시작된 부르심",
       "pages": [
         {
+          "id": "page-01",
           "image": "/images/story-01/chapter-01/page-01.jpg",
-          "text": "첫 이야기"
+          "text": "베드로는 갈릴리 바닷가에서 예수님을 만났습니다."
+        },
+        {
+          "id": "page-02",
+          "text": "그의 삶은 조용히 바뀌기 시작했습니다."
         }
       ]
     },
-
     {
       "id": "chapter-02",
-      "title": "만남",
+      "title": "순종",
+      "summary": "주님의 말씀 앞에 순종하기 시작한 베드로",
       "pages": [
         {
-          "text": "두 번째 이야기"
+          "id": "page-01",
+          "text": "베드로는 깊은 곳에 그물을 내리라는 말씀을 들었습니다."
         }
       ]
     }
