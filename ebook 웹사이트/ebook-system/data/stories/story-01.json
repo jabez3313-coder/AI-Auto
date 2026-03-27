@@ -1,1 +1,9 @@
-
+{
+ "title": "Example Story",
+ "pages": [
+  {
+   "image": "/images/story-01/story-01-01.jpg",
+   "text": "첫 번째 이야기"
+  }
+ ]
+}
