@@ -1,1 +1,29 @@
+{
+  "id": "story-01",
+  "title": "Spirituality Story",
+  "description": "영성 스토리북",
+  "coverImage": "/images/story-01/cover.jpg",
 
+  "chapters": [
+    {
+      "id": "chapter-01",
+      "title": "부르심",
+      "pages": [
+        {
+          "image": "/images/story-01/chapter-01/page-01.jpg",
+          "text": "첫 이야기"
+        }
+      ]
+    },
+
+    {
+      "id": "chapter-02",
+      "title": "만남",
+      "pages": [
+        {
+          "text": "두 번째 이야기"
+        }
+      ]
+    }
+  ]
+}
